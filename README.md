@@ -16,7 +16,7 @@ macOSのアップグレードに追従していませんでした
 
 - このリポジトリで扱っているrazer_tartarus_v2_for_karabiner.jsonはRazer Tartarus v2を扱う為だけの構成になっています
 - Razer Tartarus v2のほぼ全てのボタン(`from`部分)は網羅しています
-  - ただしホイールの上下だけはKarabiner-Elementsが未対応の為、キーマッピングがありません
+  - ただしホイールの上下スクロールだけはKarabiner-Elementsが未対応の為、キーマッピングがありません
 - 記載されている内容(`to`部分)は全て私の環境のものです。サンプルとしてお使い下さい
 
 ## 使い方
