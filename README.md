@@ -37,7 +37,7 @@ macOSのアップグレードに追従していませんでした
     }]
 }
   ```
-  - 他のボタンを参考にするか、必要であればネットで調べた上で`"to":{"key_code":"period","modifiers":["left_option"]}`の部分を好きなように修正すればOKです
+  - 他のボタンを参考にするか、必要であれば別途調べた上で`"to":{"key_code":"period","modifiers":["left_option"]}`の部分を好きなように修正すればOKです
 7. jsonが出来上がったら再び4、5を行い、全てEnableにします。jsonの構文が間違っている場合は5でruleが確認出来ない筈です。恐らく6の修正で何か誤りがあります
 8. Razer Tartarus v2が設定したjsonの通りに動作する筈です。動作しない場合はjsonが誤っていたり、Preference -> DevicesでRazer Tartarus v2のキーボードとマウスが有効化されていない可能性があります
 
