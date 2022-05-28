@@ -23,7 +23,7 @@ macOSのアップグレードに追従していませんでした
 
 1. [Karabiner-Elements](https://karabiner-elements.pqrs.org)をインストールする
 2. Preference -> MiscのOpen config folderのボタンをクリックする
-3. 開いたフォルダのassets -> complex_modifications へ razer_tartarus_v2_for_karabiner.json を入れる
+3. 開いたフォルダのassets/complex_modifications へ razer_tartarus_v2_for_karabiner.json を入れる
 4. Preference -> Complex modificationsにあるAdd ruleのボタンをクリックする
 5. Razer Tartarus v2という名前のruleがあるのを確認する
 6. 3のjsonを好きなように修正する
