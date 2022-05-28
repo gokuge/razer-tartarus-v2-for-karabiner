@@ -1,0 +1,186 @@
+{  "title": "Razer Tartarus v2",
+  "rules": [
+  	{
+      "description": "【key:01】下に転写 (opt + .)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"1"},
+          "to":{"key_code":"period","modifiers":["left_option"]}
+        }
+      ]
+    },
+    {
+      "description": "【key:02】使用レイヤー選択 (cmd + shift)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"2"},
+          "to":{"key_code":"left_shift","modifiers":["left_command"]}
+        }
+      ]
+    },
+    {
+      "description": "【key:03】拡大、移動、回転 (cmd + t)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"3"},
+          "to":{"key_code":"t","modifiers":["left_command"]}
+        }
+      ]
+    },
+    {
+       "description": "【key:04】色調補正 (cmd + u)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"4"},
+          "to":{"key_code":"u","modifiers":["left_command"]}
+        }
+      ]
+    },
+    {
+      "description": "【key:05】保存 (cmd + s)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"5"},
+          "to":{"key_code":"s","modifiers":["left_command"]}
+        }
+      ]
+    },
+    {
+      "description": "【key:06】レイヤー移動 (k)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"tab"},
+          "to":{"key_code":"k"}
+        }
+      ]
+    },
+    {
+      "description": "【key:07】自動選択 (num3)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"q"},
+          "to":{"key_code":"keypad_3"}
+        }
+      ]
+    },
+    {
+      "description": "【key:08】マスク切替",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"w"},
+          "to":{"key_code":"comma","modifiers":["left_option"]}
+        }
+      ]
+    },
+    {
+      "description": "【key:09】redo (cmd + shift + z)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"e"},
+          "to":{"key_code":"z","modifiers":["left_command","left_shift"]}
+        }
+      ]
+    },
+    {
+      "description": "【key:10】undo (cmd + z)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"r"},
+          "to":{"key_code":"z","modifiers":["left_command"]}
+        }
+      ]
+    },
+    {
+      "description": "【key:11】回転 (r)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"caps_lock"},
+          "to":{"key_code":"r"}
+        }
+      ]
+    },
+    {
+      "description": "【key:12】左右反転 (num4)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"a"},
+          "to":{"key_code":"keypad_4"}
+        }
+      ]
+    },
+    {
+      "description": "【key:13】回転リセット (num5)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"s"},
+          "to":{"key_code":"keypad_5"}
+        }
+      ]
+    },
+    {
+      "description": "【key:14】塗りブラシ (num6)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"d"},
+          "to":{"key_code":"keypad_6"}
+        }
+      ]
+    },
+    {
+      "description": "【key:15】消しゴム (e)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"f"},
+          "to":{"key_code":"e"}
+        }
+      ]
+    },
+    {
+      "description": "【key:16】色切り替え (x)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"left_shift"},
+          "to":{"key_code":"x"}
+        }
+      ]
+    },
+    {
+      "description": "【key:17】カラーセット (num2)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"z"},
+          "to":{"key_code":"keypad_2"}
+        }
+      ]
+    },
+    {
+      "description": "【key:18】不透明度下げ (cmd + num1)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"x"},
+          "to":{"key_code":"keypad_1","modifiers":["left_command"]}
+        }
+      ]
+    },
+    {
+      "description": "【key:19】不透明度上げ (cmd + num0)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"c"},
+          "to":{"key_code":"keypad_0","modifiers":["left_command"]}
+        }
+      ]
+    },
+    {
+      "description": "【key:20】全体表示 (cmd + 0)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"spacebar"},
+          "to":{"key_code":"0","modifiers":["left_command"]}
+        }
+      ]
+    },
+    {
+      "description": "【Wheel Click】esc",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"pointing_button": "button3"},
+          "to":{"key_code":"escape"}
+        }
+      ]
+    },
+    {
+      "description": "【右側面十字キー上の丸ボタン】虫眼鏡の拡縮 (cmd + space)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"left_option"},
+          "to":{"key_code":"spacebar","modifiers":["left_command"]}
+        }
+      ]
+    },
+    {
+      "description": "【右側面十字キーの上ボタン。デバイス上の見た目上は右】無効",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"up_arrow"},
+          "to":{"key_code":"vk_none"}
+        }
+      ]
+    },
+    {
+      "description": "【右側面十字キーの下ボタン。デバイス上の見た目上は左】無効",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"down_arrow"},
+          "to":{"key_code":"vk_none"}
+        }
+      ]
+    },
+    {
+      "description": "【右側面十字キーの左ボタン。デバイス上の見た目上は上】ブラシサイズ上げ (num1)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"left_arrow"},
+          "to":{"key_code":"keypad_1"}
+        }
+      ]
+    },
+    {
+      "description": "【右側面十字キーの右ボタン。デバイス上の見た目上は下】ブラシサイズ下げ (num0)",
+      "manipulators": [{"conditions": [{"type": "device_if","identifiers": [{"product_id": 555,"vendor_id": 5426}]}],"type": "basic","from":{"key_code":"right_arrow"},
+          "to":{"key_code":"keypad_0"}
+        }
+      ]
+    }
+  ]
+}
